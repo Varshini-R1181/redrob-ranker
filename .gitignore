@@ -1,0 +1,32 @@
+# === DATASET (too large for GitHub, Stage 3 uses their own copy) ===
+candidates.jsonl
+candidates.jsonl.gz
+
+# === GENERATED OUTPUTS (produced by rank.py at runtime) ===
+# The submission CSV (team_xxx.csv) IS intentionally committed —
+# it lets Stage 3 reviewers verify output without re-running.
+# Debug dumps are large JSON files produced by --debug-dump flag.
+*_debug*.json
+full_debug*.json
+
+# === PYTHON CACHE ===
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# === OS / EDITOR NOISE ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === VIRTUAL ENVIRONMENTS (if you create one locally) ===
+venv/
+.venv/
+env/
+
+# === JUPYTER NOTEBOOKS (if used during development) ===
+.ipynb_checkpoints/

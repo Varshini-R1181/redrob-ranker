@@ -1,0 +1,8 @@
+# rank.py uses only Python standard library (json, csv, re, math, argparse,
+# datetime, collections). No third-party packages required for ranking.
+#
+# Python version: >= 3.9
+#
+# To verify:
+#   python3 --version          # must be 3.9+
+#   python3 rank.py --candidates ./candidates.jsonl --out ./submission.csv

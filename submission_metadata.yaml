@@ -4,25 +4,25 @@
 # ============================================================================
 # Team identity
 # ============================================================================
-team_name: "YOUR_TEAM_NAME"          # REQUIRED — used in leaderboard
+team_name: "Code Beavers"          # REQUIRED — used in leaderboard
 
 primary_contact:
-  name: "Your Full Name"             # REQUIRED
-  email: "you@example.com"           # REQUIRED — organizer communication
-  phone: "+91-XXXXXXXXXX"            # REQUIRED — top-50/top-10 outreach
+  name: "Varshini Ravichandran"             # REQUIRED
+  email: "varshinir38533@gmail.com"           # REQUIRED — organizer communication
+  phone: "+91-9025173276"            # REQUIRED — top-50/top-10 outreach
 
 team_members:
-  - name: "Your Full Name"
-    email: "you@example.com"
+  - name: "Varshini Ravichandran"
+    email: "varshinir38533@gmail.com"
     role: "Solo participant"
   # Add more members if applicable
 
 # ============================================================================
 # Code and reproducibility
 # ============================================================================
-github_repo: "https://github.com/YOUR_USERNAME/YOUR_REPO"   # REQUIRED
+github_repo: "https://github.com/Varshini-R1181/redrob-ranker"   # REQUIRED
 
-sandbox_link: "https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker"  # REQUIRED
+sandbox_link: "https://huggingface.co/spaces/Varshini-R1181/redrob-ranker"  # REQUIRED
 
 reproduce_command: "python3 rank.py --candidates ./candidates.jsonl --out ./submission.csv"
 # Runs end-to-end in ~40s on CPU with 16GB RAM. No network required. No pre-computation step.
@@ -31,11 +31,11 @@ reproduce_command: "python3 rank.py --candidates ./candidates.jsonl --out ./subm
 # Compute environment
 # ============================================================================
 compute:
-  platform: "YOUR MACHINE (e.g. MacBook Pro M2, Ubuntu 22.04 on x86)"
+  platform: "Windows 11"
   cpu_cores: 8
   ram_gb: 16
   python_version: "3.11"             # any 3.9+ works; update to match yours
-  os: "YOUR OS"
+  os: "Microsoft"
   uses_gpu_for_inference: false      # must be false
   has_network_during_ranking: false  # must be false — no API calls
   pre_computation_required: false    # rank.py is fully self-contained

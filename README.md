@@ -88,7 +88,7 @@ Normalizes `saved_by_recruiters_30d` and `github_activity_score` within the top-
 
 ## Sandbox
 
-[**→ Run on HuggingFace Spaces**](https://huggingface.co/spaces/YOUR_USERNAME/redrob-ranker)
+[**→ Run on HuggingFace Spaces**](https://huggingface.co/spaces/Varshini-R1181/redrob-ranker)
 
 The sandbox accepts a small candidate sample (≤100 candidates as JSONL), runs the full ranker, and returns a ranked CSV. Runs within the 5-minute CPU budget on sample inputs.
 
